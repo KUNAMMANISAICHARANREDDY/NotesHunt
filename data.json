@@ -1,0 +1,468 @@
+{
+  "semesters": [
+    {
+      "id": "sem1",
+      "name": "Semester 1",
+      "subjects": [
+        {
+          "name": "AI",
+          "code": "ai",
+          "units": [
+            {
+              "unit": "Unit 1",
+              "pdf": "pdfs/sem1/AI/unit1.pdf"
+            },
+            {
+              "unit": "Unit 2",
+              "pdf": "pdfs/sem1/AI/unit2.pdf"
+            },
+            {
+              "unit": "Unit 3",
+              "pdf": "pdfs/sem1/AI/unit3.pdf"
+            }
+          ]
+        },
+        {
+          "name": "PPS",
+          "code": "pps",
+          "units": [
+            {
+              "unit": "Unit 1",
+              "pdf": "pdfs/sem1/PPS/unit1.pdf"
+            },
+            {
+              "unit": "Unit 2",
+              "pdf": "pdfs/sem1/PPS/unit2.pdf"
+            },
+            {
+              "unit": "Unit 3",
+              "pdf": "pdfs/sem1/PPS/unit3.pdf"
+            },
+            {
+              "unit": "Unit 4",
+              "pdf": "pdfs/sem1/PPS/unit4.pdf"
+            },
+            {
+              "unit": "Unit 5",
+              "pdf": "pdfs/sem1/PPS/unit5.pdf"
+            },
+            {
+              "unit": "Unit 6",
+              "pdf": "pdfs/sem1/PPS/unit6.pdf"
+            }
+          ]
+        },
+        {
+          "name": "WEB",
+          "code": "web",
+          "units": [
+            {
+              "unit": "Unit 1",
+              "pdf": "pdfs/sem1/WEB/unit1.pdf"
+            },
+            {
+              "unit": "Unit 2",
+              "pdf": "pdfs/sem1/WEB/unit2.pdf"
+            },
+            {
+              "unit": "Unit 3",
+              "pdf": "pdfs/sem1/WEB/unit3.pdf"
+            },
+            {
+              "unit": "Unit 4",
+              "pdf": "pdfs/sem1/WEB/unit4.pdf"
+            },
+            {
+              "unit": "Unit 5",
+              "pdf": "pdfs/sem1/WEB/unit5.pdf"
+            }
+          ]
+        },
+        {
+          "name": "Engineering Physics",
+          "code": "ephy",
+          "units": [
+            {
+              "unit": "Unit 1",
+              "pdf": "pdfs/sem1/PHY/unit1.pdf"
+            },
+            {
+              "unit": "Unit 2",
+              "pdf": "pdfs/sem1/PHY/unit2.pdf"
+            },
+            {
+              "unit": "Unit 3",
+              "pdf": "pdfs/sem1/PHY/unit3.pdf"
+            },
+            {
+              "unit": "Unit 4",
+              "pdf": "pdfs/sem1/PHY/unit4.pdf"
+            }
+          ]
+        },
+        {
+          "name": "Mathematics",
+          "code": "MATH",
+          "units": [
+            {
+              "unit": "Unit 1",
+              "pdf": "pdfs/sem1/MATH/unit1.pdf"
+            },
+            {
+              "unit": "Unit 2",
+              "pdf": "pdfs/sem1/MATH/unit2.pdf"
+            },
+            {
+              "unit": "Unit 3",
+              "pdf": "pdfs/sem1/MATH/unit3.pdf"
+            },
+            {
+              "unit": "Unit 4",
+              "pdf": ""
+            }
+          ]
+      },
+      {
+          "name": "EEE",
+          "code": "eee",
+          "units": [
+            {
+              "unit": "Unit 1",
+              "pdf": "pdfs/sem1/EEE/unit1.pdf"
+            },
+            {
+              "unit": "Unit 2",
+              "pdf": "pdfs/sem1/EEE/unit2.pdf"
+            },
+            {
+              "unit": "Unit 3",
+              "pdf": "pdfs/sem1/EEE/unit3.pdf"
+            },
+            {
+              "unit": "Unit 4",
+              "pdf": "pdfs/sem1/EEE/unit4.pdf"
+            },
+            {
+              "unit": "Unit 5",
+              "pdf": "pdfs/sem1/EEE/unit5.pdf"
+            }
+          ]
+        }
+    ]
+  },
+  {
+    "id": "sem4",
+    "name": "Semester 4",
+    "subjects": [
+      {
+        "name": "Python",
+        "code": "ppfd",
+        "units": [
+          {
+            "unit": "Unit 1",
+            "pdf": "pdfs/sem4/PPFD/unit1.pdf"
+          },
+          {
+            "unit": "Unit 2",
+            "pdf": "pdfs/sem4/PPFD/unit2.pdf"
+          },
+          {
+            "unit": "Unit 3",
+            "pdf": "pdfs/sem4/PPFD/unit3.pdf"
+          },
+          {
+            "unit": "Unit 4",
+            "pdf": "pdfs/sem4/PPFD/unit4.pdf"
+          },
+          {
+            "unit": "Unit 5",
+            "pdf": "pdfs/sem4/PPFD/unit5.pdf"
+          },
+          {
+            "unit": "Unit 6",
+            "pdf": "pdfs/sem4/PPFD/unit6.pdf"
+          }
+        ]
+      },
+      {
+        "name": "PSNM",
+        "code": "psnm",
+        "units": [
+          {
+            "unit": "Unit 1",
+            "pdf": "pdfs/sem4/PSNM/unit1.pdf"
+          },
+          {
+            "unit": "Unit 2",
+            "pdf": "pdfs/sem4/PSNM/unit2.pdf"
+          },
+          {
+            "unit": "Unit 3",
+            "pdf": "pdfs/sem4/PSNM/unit3.pdf"
+          },
+          {
+            "unit": "Unit 4",
+            "pdf": "pdfs/sem4/PSNM/unit4.pdf"
+          },
+          {
+            "unit": "Unit 5",
+            "pdf": "pdfs/sem4/PSNM/unit5.pdf"
+          },
+          {
+            "unit": "Unit 6",
+            "pdf": "pdfs/sem4/PSNM/unit6.pdf"
+          }
+        ]
+      },
+      {
+        "name": "Operating System",
+        "code": "OS",
+        "units": [
+          {
+            "unit": "Unit 1",
+            "pdf": "pdfs/sem4/PSNM/unit1.pdf"
+          },
+          {
+            "unit": "Unit 2",
+            "pdf": "pdfs/sem4/PSNM/unit2.pdf"
+          },
+          {
+            "unit": "Unit 3",
+            "pdf": "pdfs/sem4/PSNM/unit3.pdf"
+          },
+          {
+            "unit": "Unit 4",
+            "pdf": "pdfs/sem4/PSNM/unit4.pdf"
+          },
+          {
+            "unit": "Unit 5",
+            "pdf": "pdfs/sem4/PSNM/unit5.pdf"
+          },
+          {
+            "unit": "Unit 6",
+            "pdf": "pdfs/sem4/PSNM/unit6.pdf"
+          }
+        ]
+      },
+      {
+        "name": "COMA",
+        "code": "coma",
+        "units": [
+          {
+            "unit": "Unit 1",
+            "pdf": "pdfs/sem4/COMA/unit1.pdf"
+          },
+          {
+            "unit": "Unit 2",
+            "pdf": "pdfs/sem4/COMA/unit2.pdf"
+          },
+          {
+            "unit": "Unit 3",
+            "pdf": "pdfs/sem4/COMA/unit3.pdf"
+          },
+          {
+            "unit": "Unit 4",
+            "pdf": "pdfs/sem4/COMA/unit4.pdf"
+          },
+          {
+            "unit": "Unit 5",
+            "pdf": "pdfs/sem4/COMA/unit5.pdf"
+          },
+          {
+            "unit": "Unit 6",
+            "pdf": "pdfs/sem4/COMA/unit6.pdf"
+          }
+        ]
+      },
+      {
+        "name": "Computer Network ",
+        "code": "cn",
+        "units": [
+          {
+            "unit": "Unit 1",
+            "pdf": "pdfs/sem4/CN/unit1.pdf"
+          },
+          {
+            "unit": "Unit 2",
+            "pdf": "pdfs/sem4/CN/unit2.pdf"
+          },
+          {
+            "unit": "Unit 3",
+            "pdf": "pdfs/sem4/CN/unit3.pdf"
+          },
+          {
+            "unit": "Unit 4",
+            "pdf": "pdfs/sem4/CN/unit4.pdf"
+          },
+          {
+            "unit": "Unit 5",
+            "pdf": "pdfs/sem4/CN/unit5.pdf"
+          }
+        ]
+      },
+      {
+        "name": "Software Engineering ",
+        "code": "se",
+        "units": [
+          {
+            "unit": "Unit 1",
+            "pdf": "pdfs/sem4/SE/unit1.pdf"
+          },
+          {
+            "unit": "Unit 2",
+            "pdf": "pdfs/sem4/SE/unit2.pdf"
+          },
+          {
+            "unit": "Unit 3",
+            "pdf": "pdfs/sem4/SE/unit3.pdf"
+          },
+          {
+            "unit": "Unit 4",
+            "pdf": "pdfs/sem4/SE/unit4.pdf"
+          },
+          {
+            "unit": "Unit 5",
+            "pdf": "pdfs/sem4/SE/unit5.pdf"
+          },
+          {
+            "unit": "Unit 6",
+            "pdf": "pdfs/sem4/SE/unit6.pdf"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "sem6",
+    "name": "Semester 6",
+    "subjects": [
+      {
+        "name": "Complier Design",
+        "code": "CS",
+        "units": [
+          {
+            "unit": "Unit 1",
+            "pdf": "pdfs/sem6/CD/unit1.pdf"
+          },
+          {
+            "unit": "Unit 2",
+            "pdf": "pdfs/sem6/CD/unit2.pdf"
+          },
+          {
+            "unit": "Unit 3",
+            "pdf": "pdfs/sem6/CD/unit3.pdf"
+          },
+          {
+            "unit": "Unit 4",
+            "pdf": "pdfs/sem6/CD/unit4.pdf"
+          },
+          {
+            "unit": "Unit 5",
+            "pdf": "pdfs/sem6/CD/unit5.pdf"
+          },
+          {
+            "unit": "Unit 6",
+            "pdf": "pdfs/sem6/CD/unit6.pdf"
+          },
+          {
+            "unit": "Unit 7",
+            "pdf": "pdfs/sem6/CD/unit7.pdf"
+          },
+          {
+            "unit": "Unit 8",
+            "pdf": "pdfs/sem6/CD/unit8.pdf"
+          }
+        ]
+      },
+      {
+        "name": "BDA",
+        "code": "bda",
+        "units": [
+          {
+            "unit": "Unit 1",
+            "pdf": "pdfs/sem6/BDA/unit1.pdf"
+          },
+          {
+            "unit": "Unit 2",
+            "pdf": "pdfs/sem6/BDA/unit2.pdf"
+          },
+          {
+            "unit": "Unit 3",
+            "pdf": "pdfs/sem6/BDA/unit3.pdf"
+          },
+          {
+            "unit": "Unit 4",
+            "pdf": "pdfs/sem6/BDA/unit4.pdf"
+          }
+        ]
+      },
+      {
+        "name": "CC",
+        "code": "cc",
+        "units": [
+          {
+            "unit": "Unit 1",
+            "pdf": "pdfs/sem6/CC/unit1.pdf"
+          },
+          {
+            "unit": "Unit 2",
+            "pdf": "pdfs/sem6/CC/unit2.pdf"
+          },
+          {
+            "unit": "Unit 3",
+            "pdf": "pdfs/sem6/CC/unit3.pdf"
+          }
+        ]
+      },
+      {
+        "name": "MAD",
+        "code": "mad",
+        "units": [
+          {
+            "unit": "Unit 1",
+            "pdf": "pdfs/sem6/MAD/unit1.pdf"
+          },
+          {
+            "unit": "Unit 2",
+            "pdf": "pdfs/sem6/MAD/unit2.pdf"
+          },
+          {
+            "unit": "Unit 3",
+            "pdf": "pdfs/sem6/MAD/unit3.pdf"
+          },
+          {
+            "unit": "Unit 4",
+            "pdf": "pdfs/sem6/MAD/unit4.pdf"
+          },
+          {
+            "unit": "Unit 5",
+            "pdf": "pdfs/sem6/MAD/unit5.pdf"
+          },
+          {
+            "unit": "Unit 6",
+            "pdf": "pdfs/sem6/MAD/unit6.pdf"
+          },
+          {
+            "unit": "Unit 7",
+            "pdf": "pdfs/sem6/MAD/unit7.pdf"
+          }
+        ]
+      },
+      {
+        "name": "CS",
+        "code": "cs",
+        "units": [
+          {
+            "unit": "Unit 1",
+            "pdf": ""
+          },
+          {
+            "unit": "Unit 2",
+            "pdf": ""
+          }
+        ]
+      }
+    ]
+  }
+]
+}

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NotesHunt - The Ultimate Study Companion</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar">
+            <div class="logo">NotesHunt</div>
+            <a href="#home">Home</a>
+            <a href="#sem1">Sem 1</a>
+            <a href="#sem4">Sem 4</a>
+            <a href="#sem6">Sem 6</a>
+            <a href="#about">About</a>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+         
+        <div class="stuck-grid">
+            <div class="grid-item">CSS</div>
+            <div class="grid-item">DAA</div>
+            <div class="grid-item">EPJ</div>
+            <div class="grid-item">Mobile App Dev</div>
+            <div class="grid-item">MATH</div>
+            <div class="grid-item">Physics</div>
+            <div class="grid-item">HTML</div>
+            <div class="grid-item">English</div>
+            <div class="grid-item">Python</div>
+            <div class="grid-item">Java</div>
+            <div class="grid-item special"><b>NotesHunt</b></div>
+            <div class="grid-item">OOPS</div>
+            <div class="grid-item">C++</div>
+            <div class="grid-item">Web Dev</div>
+            <div class="grid-item">Compiler Design</div>
+            <div class="grid-item">DSA</div>
+        </div>
+
+        <!-- SEMESTER QUICK LINKS -->
+        <div class="quick-links">
+            <a href="#sem1">Semester 1</a>
+            <a href="#sem4">Semester 4</a>
+            <a href="#sem6">Semester 6</a>
+        </div>
+
+       <div class="scroll-indicator">
+            <span>Scroll to Explore</span>
+            <div class="arrow"></div>
+        </div>
+    </section>
+
+    <main id="content">
+        <!-- Content injected by script.js -->
+    </main>
+
+    <section id="about" class="about">
+        <h2>About Me</h2>
+        <div class="profile-avatar">K</div>
+        <p><strong>KUNAM MANI SAI CHARAN REDDY 😎</strong></p>
+        <p class="subtitle">Full Stack Developer & Student</p>
+        <div class="socials">
+            <a href="https://www.linkedin.com/in/kunam-mani-sai-charan-reddy-7a18b7284/">LinkedIn</a>
+          <a href="mailto:kunammanisaicharanreddyyy@gmail.com">Gmail</a>
+            <a href="https://www.instagram.com/manisairk/">Instagram</a>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 NotesHunt • All Rights Reserved <br> Made With 🙂 </p>
+        <div class="marquee-container">
+            <div class="marquee-content">
+                For Feedback , Suggestions and Updates Msg Me On The Linkedin Or Mail &nbsp;&nbsp;•&nbsp;&nbsp;  For Feedback , Suggestions and Updates Msg Me On The Linkedin Or Mail
+                &nbsp;&nbsp;•&nbsp;&nbsp; For Feedback , Suggestions and Updates Msg Me On The Linkedin Or Mail .
+            </div>
+        </div>
+    </footer>
+
+    <div class="viewer" id="viewer">
+        <header>
+            <span>PDF Viewer</span>
+            <button onclick="closePDF()">Close</button>
+        </header>
+        <div id="pdfContainer" oncontextmenu="return false"></div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js"></script>
+    <script>
+        pdfjsLib.GlobalWorkerOptions.workerSrc = 'https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.worker.min.js';
+    </script>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
