@@ -461,6 +461,20 @@
             "pdf": "pdfs/sem6/CS/uploadingSoon.pdf"
           }
         ]
+      },
+      {
+        "name": "Mern",
+        "code": "mern",
+        "units": [
+          {
+            "unit": "Unit 1",
+            "pdf": "pdfs/sem6/CS/uploadingSoon.pdf"
+          },
+          {
+            "unit": "Unit 2",
+            "pdf": ""
+          }
+        ]
       }
     ]
   }
