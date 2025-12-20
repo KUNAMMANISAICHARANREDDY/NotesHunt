@@ -338,7 +338,7 @@
     "subjects": [
       {
         "name": "Complier Design",
-        "code": "CS",
+        "code": "CD",
         "units": [
           {
             "unit": "Unit 1",
@@ -454,7 +454,7 @@
         "units": [
           {
             "unit": "Unit 1",
-            "pdf": ""
+            "pdf": "pdfs/sem6/CS/uploadingSoon.pdf"
           },
           {
             "unit": "Unit 2",
