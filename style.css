@@ -480,18 +480,35 @@ footer {
     .navbar {
         padding: 10px 20px;
         gap: 15px;
+        justify-content: center;
     }
 
     .logo {
         display: none;
     }
 
+    .navbar a {
+        font-size: 0.85rem;
+    }
+
     /* Simplify on mobile */
     .stuck-grid {
-        grid: repeat(4, 25vh) / repeat(2, 50vw);
+        /* 1 column grid for cleaner look on mobile, or 2 columns if items are small */
+        grid: repeat(8, 12.5vh) / 100vw;
+    }
+
+    .grid-item {
+        font-size: 6vmin;
+        /* Start smaller */
     }
 
     .grid-item.special b {
-        font-size: 15vmin;
+        font-size: 12vmin;
+        /* Adjusted so it doesn't break layout */
+    }
+
+    .scroll-indicator {
+        top: 18vh;
+        /* Slightly lower on mobile to clear nav */
     }
 }
