@@ -147,7 +147,41 @@
               "pdf": "pdfs/sem1/EEE/unit5.pdf"
             }
           ]
-        }
+        },
+        {
+        "name": "FCS ",
+        "code": "fcs",
+        "units": [
+          {
+            "unit": "Unit 1",
+            "pdf": "pdfs/sem1/FCS/unit1.pdf"
+          },
+          {
+            "unit": "Unit 2",
+            "pdf": "pdfs/sem1/FCS/unit2.pdf"
+          },
+          {
+            "unit": "Unit 3",
+            "pdf": "pdfs/sem1/FCS/unit3.pdf"
+          },
+          {
+            "unit": "Unit 4",
+            "pdf": "pdfs/sem1/FCS/unit4.pdf"
+          },
+          {
+            "unit": "Unit 5",
+            "pdf": "pdfs/sem1/FCS/unit5.pdf"
+          },
+          {
+            "unit": "Unit 6",
+            "pdf": "pdfs/sem1/FCS/unit6.pdf"
+          },
+          {
+            "unit": "Unit 7",
+            "pdf": "pdfs/sem1/FCS/unit7.pdf"
+          }
+        ]
+      }
     ]
   },
   {
