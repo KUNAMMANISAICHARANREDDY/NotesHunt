@@ -99,4 +99,52 @@ function closePDF() {
 }
 
 // Disable right click on viewer
+// Disable right click on viewer
 viewer.addEventListener('contextmenu', event => event.preventDefault());
+
+/* ================= SEARCH LOGIC ================= */
+const searchInput = document.querySelector('.search-container input');
+const searchBtn = document.querySelector('.search-btn');
+
+function performSearch() {
+    const query = searchInput.value.trim().toLowerCase();
+    if (!query) return;
+
+    const cards = document.querySelectorAll('.card');
+    let found = false;
+
+    // Remove previous highlights
+    cards.forEach(card => card.classList.remove('highlight'));
+
+    for (const card of cards) {
+        const title = card.querySelector('h3').textContent.toLowerCase();
+        if (title.includes(query)) {
+            // Scroll to the card
+            card.scrollIntoView({ behavior: 'smooth', block: 'center' });
+
+            // Add highlight effect
+            card.classList.add('highlight');
+
+            // Remove highlight after animation
+            setTimeout(() => {
+                card.classList.remove('highlight');
+            }, 2000);
+
+            found = true;
+            break; // Stop after first match
+        }
+    }
+
+    if (!found) {
+        alert('Subject not found! Try a different keyword.');
+    }
+}
+
+// Event Listeners
+searchBtn.addEventListener('click', performSearch);
+
+searchInput.addEventListener('keypress', (e) => {
+    if (e.key === 'Enter') {
+        performSearch();
+    }
+});
