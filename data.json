@@ -70,7 +70,7 @@
               "unit": "PYQ 1",
               "pdf": "pdfs/sem1/PPS/pyq1.pdf"
             },
-             {
+            {
               "unit": "PYQ 2",
               "pdf": "pdfs/sem1/PPS/pyq2.pdf"
             },
@@ -106,7 +106,7 @@
             },
             {
               "unit": "Question Bank",
-              "pdf": "pdfs/sem1/WEB/unit5.pdf"
+              "pdf": "pdfs/sem1/WEB/WebQuestionBank.pdf"
             }
           ]
         },
