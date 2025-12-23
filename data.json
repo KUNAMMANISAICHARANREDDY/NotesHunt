@@ -65,6 +65,18 @@
             {
               "unit": "Unit 6",
               "pdf": "pdfs/sem1/PPS/unit6.pdf"
+            },
+            {
+              "unit": "PYQ 1",
+              "pdf": "pdfs/sem1/PPS/pyq1.pdf"
+            },
+             {
+              "unit": "PYQ 2",
+              "pdf": "pdfs/sem1/PPS/pyq2.pdf"
+            },
+            {
+              "unit": "Question Bank",
+              "pdf": "pdfs/sem1/PPS/questionbank.pdf"
             }
           ]
         },
@@ -90,6 +102,10 @@
             },
             {
               "unit": "Unit 5",
+              "pdf": "pdfs/sem1/WEB/unit5.pdf"
+            },
+            {
+              "unit": "Question Bank",
               "pdf": "pdfs/sem1/WEB/unit5.pdf"
             }
           ]
@@ -135,6 +151,10 @@
             {
               "unit": "Unit 4",
               "pdf": "pdfs/sem1/MATH/unit4.pdf"
+            },
+            {
+              "unit": "PYQ",
+              "pdf": "pdfs/sem1/MATH/MathPyq1.pdf"
             }
           ]
         },
@@ -161,6 +181,10 @@
             {
               "unit": "Unit 5",
               "pdf": "pdfs/sem1/EEE/unit5.pdf"
+            },
+            {
+              "unit": "PYQ",
+              "pdf": "pdfs/sem1/EEE/EEEPyq1.pdf"
             }
           ]
         },
