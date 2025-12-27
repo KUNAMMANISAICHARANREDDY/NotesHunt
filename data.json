@@ -107,7 +107,7 @@
             {
               "unit": "Question Bank",
               "pdf": "pdfs/sem1/WEB/WebQuestionBank.pdf"
-            } 
+            }
           ]
         },
         {
@@ -555,6 +555,28 @@
             {
               "unit": "Unit 2",
               "pdf": "pdfs/sem6/CS/uploadingSoon.pdf"
+            }
+          ]
+        },
+        {
+          "name": "Lab Manuals",
+          "code": "lab",
+          "units": [
+            {
+              "unit": "BDA Manual",
+              "pdf": "pdfs/sem6/Lab Manual/BDAManual.pdf"
+            },
+            {
+              "unit": "CC Manual",
+              "pdf": "pdfs/sem6/Lab Manual/CCManual.pdf"
+            },
+            {
+              "unit": "CD Manual",
+              "pdf": "pdfs/sem6/Lab Manual/CDManual.pdf"
+            },
+            {
+              "unit": "MAD Manual",
+              "pdf": "pdfs/sem6/Lab Manual/MADManual.pdf"
             }
           ]
         }

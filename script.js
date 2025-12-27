@@ -61,6 +61,22 @@ function openPDF(link) {
     viewer.style.display = 'flex';
     container.innerHTML = ''; // Clear previous
 
+    // Download Button Logic
+    const downloadBtn = document.getElementById('downloadBtn');
+    if (link.includes('Lab Manual')) {
+        downloadBtn.style.display = 'inline-block';
+        downloadBtn.onclick = () => {
+            const a = document.createElement('a');
+            a.href = link;
+            a.download = link.split('/').pop();
+            document.body.appendChild(a);
+            a.click();
+            document.body.removeChild(a);
+        };
+    } else {
+        downloadBtn.style.display = 'none';
+    }
+
     const loadingTask = pdfjsLib.getDocument(link);
     loadingTask.promise.then(
         function (pdf) {
