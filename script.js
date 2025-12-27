@@ -164,3 +164,13 @@ searchInput.addEventListener('keypress', (e) => {
         performSearch();
     }
 });
+
+/* ================= SPLASH CLEANUP ================= */
+window.addEventListener('DOMContentLoaded', () => {
+    const splash = document.getElementById('splash-overlay');
+    if (splash) {
+        setTimeout(() => {
+            splash.remove();
+        }, 2500); // Wait for animation to finish
+    }
+});
