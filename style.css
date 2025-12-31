@@ -76,6 +76,15 @@ header {
     animation: fadeOutOverlay 0.8s ease-in-out 2.0s forwards;
 }
 
+#fireworks {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
 .splash-text {
     font-size: 5rem;
     font-weight: 800;
@@ -85,6 +94,21 @@ header {
     white-space: nowrap;
     opacity: 0;
     will-change: transform, opacity, filter;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 1.1;
+    z-index: 2;
+    position: relative;
+}
+
+.sub-splash {
+    font-size: 6rem;
+    background: -webkit-linear-gradient(#f1c40f, #e67e22);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 800;
 }
 
 @keyframes cinematicZoom {
