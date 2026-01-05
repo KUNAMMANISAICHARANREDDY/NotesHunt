@@ -495,3 +495,88 @@ footer {
         /* Slightly lower on mobile to clear nav */
     }
 }
+
+@media(max-width: 768px) {
+
+    /* Splash Screen Mobile */
+    .splash-text {
+        font-size: 3rem;
+        padding: 0 10px;
+        text-align: center;
+        white-space: normal;
+        /* Allow wrapping */
+        line-height: 1.2;
+    }
+
+    .sub-splash {
+        font-size: 2rem;
+        margin-top: 10px;
+    }
+
+    /* Navbar Mobile */
+    .navbar {
+        padding: 10px 20px;
+        gap: 15px;
+    }
+
+    .logo {
+        display: none;
+        /* Hide logo on smaller screens to save space */
+    }
+
+    .navbar a {
+        font-size: 0.9rem;
+        padding: 5px;
+    }
+
+    .search-container:hover input,
+    .search-container:focus-within input {
+        width: 120px;
+        /* Smaller expansion width */
+    }
+
+    /* Content Mobile */
+    main {
+        padding: 100px 15px 40px;
+        /* Reduced top/side padding */
+    }
+
+    .semester {
+        margin-bottom: 80px;
+        scroll-margin-top: 100px;
+    }
+
+    .semester h2 {
+        font-size: 2rem;
+        margin-bottom: 30px;
+    }
+
+    .subjects {
+        gap: 20px;
+        grid-template-columns: 1fr;
+        /* Stack cards on mobile */
+    }
+
+    .card {
+        padding: 20px;
+    }
+
+    /* About Section Mobile */
+    .about {
+        padding: 60px 20px;
+    }
+
+    .about h2 {
+        font-size: 1.8rem;
+    }
+}
+
+@media(max-width: 480px) {
+    .splash-text {
+        font-size: 2.2rem;
+    }
+
+    .sub-splash {
+        font-size: 1.5rem;
+    }
+}
