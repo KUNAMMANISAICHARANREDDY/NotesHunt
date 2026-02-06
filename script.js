@@ -46,6 +46,21 @@ if (semester.name === "Semester 4") {
     </h4>
   `;
 }
+        if (semester.name === "Semester 6") {
+  creditHTML = `
+    <h4 class="credit">
+      Thanks to @ 
+      <a
+        href="https://www.linkedin.com/in/pankajyadav2005?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+        target="_blank"
+        class="insta-link"
+      >
+        <b>Pankaj Yadav</b>
+      </a>
+      for contributing <b>SEM6</b> the PDFs
+    </h4>
+  `;
+}
 
 section.innerHTML = `
   <h2>${semester.name}</h2>
