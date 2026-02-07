@@ -151,6 +151,34 @@ main {
     min-height: 100vh;
 }
 
+.page-content {
+    max-width: 800px; /* Readability */
+    margin: 0 auto;
+}
+
+.page-content h1 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    font-weight: 800;
+}
+
+.page-content p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-bottom: 1.5rem;
+    color: #444;
+}
+
+.page-content ul {
+    margin-left: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.page-content li {
+    margin-bottom: 0.5rem;
+    line-height: 1.6;
+}
+
 .semester {
     margin-bottom: 120px;
     scroll-margin-top: 140px;
