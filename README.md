@@ -50,4 +50,4 @@ The specific goal of this project was to ensure study materials are **view-only*
 
 ## 📄 License
 
-© 2025 NotesHunt. All Rights Reserved.
+© 2026 NotesHunt. All Rights Reserved.
