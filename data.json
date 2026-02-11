@@ -547,6 +547,10 @@
           "name": "Lab Manuals",
           "code": "lab",
           "units": [
+             {
+              "unit": "CS Manual",
+              "pdf": "pdfs/sem6/Lab Manual/CSMANUAL.pdf"
+            },
             {
               "unit": "BDA Manual",
               "pdf": "pdfs/sem6/Lab Manual/BDAManual.pdf"
