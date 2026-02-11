@@ -14,10 +14,10 @@ function renderContent(data) {
         const section = document.createElement('section');
         section.className = 'semester';
         section.id = semester.id; // e.g., 'sem1'
-  let creditHTML = "";
+        let creditHTML = "";
 
-if (semester.name === "Semester 2") {
-  creditHTML = `
+        if (semester.name === "Semester 2") {
+            creditHTML = `
     <h4 class="credit">
       Thanks to @ 
       <a
@@ -30,10 +30,10 @@ if (semester.name === "Semester 2") {
       for contributing <b>SEM2</b> the PDFs
     </h4>
   `;
-}
+        }
 
-if (semester.name === "Semester 4") {
-  creditHTML = `
+        if (semester.name === "Semester 4") {
+            creditHTML = `
     <h4 class="credit">
       Thanks to @ 
       <a
@@ -45,9 +45,9 @@ if (semester.name === "Semester 4") {
       for contributing <b>SEM4</b> the PDFs
     </h4>
   `;
-}
+        }
         if (semester.name === "Semester 6") {
-  creditHTML = `
+            creditHTML = `
     <h4 class="credit">
       Thanks to @ 
       <a
@@ -60,10 +60,10 @@ if (semester.name === "Semester 4") {
       for contributing <b>SEM6</b> the PDFs
     </h4>
   `;
-}
+        }
 
-if (semester.name === "Semester 6") {
-  creditHTML = `
+        if (semester.name === "Semester 6") {
+            creditHTML = `
     <h4 class="credit">
       Thanks to @ 
       <a
@@ -76,10 +76,10 @@ if (semester.name === "Semester 6") {
       for contributing <b>SEM6</b> the PDFs
     </h4>
   `;
-}
+        }
 
 
-section.innerHTML = `
+        section.innerHTML = `
   <h2>${semester.name}</h2>
   ${creditHTML}
 `;
@@ -90,18 +90,6 @@ section.innerHTML = `
         // Create Grid for Subjects
         const grid = document.createElement('div');
         grid.className = 'subjects';
-
-        // Check if this is the Lab Manuals section
-        if (semester.name === "Lab Manuals") {
-            const inputContainer = document.createElement('div');
-            inputContainer.className = 'enrollment-container';
-            inputContainer.style.marginBottom = '20px';
-            inputContainer.innerHTML = `
-                <input type="text" id="enrollmentInput" placeholder="Enter Enrollment Number" 
-                       style="padding: 10px; border-radius: 5px; border: 1px solid #ddd; width: 100%; max-width: 300px;">
-             `;
-            section.appendChild(inputContainer);
-        }
 
         semester.subjects.forEach(subject => {
             const card = document.createElement('div');
@@ -167,64 +155,22 @@ async function openPDF(link, semesterName) {
         downloadBtn.parentNode.replaceChild(newBtn, downloadBtn);
 
         newBtn.onclick = async () => {
-            const enrollmentInput = document.getElementById('enrollmentInput');
-            const enrollmentNumber = enrollmentInput ? enrollmentInput.value.trim() : '';
-
-            if (!enrollmentNumber) {
-                alert("Please enter your Enrollment Number in the Lab Manuals section to download.");
-                // Close the viewer so they can see the input input
-                closePDF();
-                // Scroll to input if possible
-                if (enrollmentInput) enrollmentInput.scrollIntoView({ behavior: 'smooth', block: 'center' });
-                return;
-            }
-
+            // Direct download for Lab Manuals, no enrollment number required
             try {
                 showBatmanLoader(); // Show loader during download prep
                 // Fetch the existing PDF
                 const existingPdfBytes = await fetch(link).then(res => res.arrayBuffer());
-
-                // Load a PDFDocument from the existing PDF bytes
-                const pdfDoc = await PDFLib.PDFDocument.load(existingPdfBytes);
-
-                // Get all pages of the document
-                const pages = pdfDoc.getPages();
-                const { rgb } = PDFLib;
-
-                // Add the enrollment number to each page
-                for (const page of pages) {
-                    const { width, height } = page.getSize();
-                    const fontSize = 12;
-
-                    // To do true right align we need text width. 
-                    // pdf-lib standard font:
-                    const helveticaFont = await pdfDoc.embedFont(PDFLib.StandardFonts.Helvetica);
-                    const textWidth = helveticaFont.widthOfTextAtSize(enrollmentNumber, fontSize);
-
-                    page.drawText(enrollmentNumber, {
-                        x: width - textWidth - 15,
-                        y: height - 15 - fontSize, // Position from top (height - margin - fontSize) approx
-                        size: fontSize,
-                        font: helveticaFont,
-                        color: rgb(0, 0, 0),
-                    });
-                }
-
-                // Serialize the PDFDocument to bytes (a Uint8Array)
-                const pdfBytes = await pdfDoc.save();
-
                 // Trigger the browser to download the PDF document
-                const blob = new Blob([pdfBytes], { type: 'application/pdf' });
+                const blob = new Blob([existingPdfBytes], { type: 'application/pdf' });
                 const a = document.createElement('a');
                 a.href = URL.createObjectURL(blob);
-                a.download = `LabManual_${enrollmentNumber}.pdf`;
+                a.download = `LabManual.pdf`;
                 document.body.appendChild(a);
                 a.click();
                 document.body.removeChild(a);
-
             } catch (error) {
-                console.error("Error modifying PDF:", error);
-                alert("Failed to process PDF for download.");
+                console.error("Error downloading PDF:", error);
+                alert("Failed to download PDF.");
             } finally {
                 hideBatmanLoader();
             }
