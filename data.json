@@ -443,6 +443,36 @@
           ]
         },
         {
+          "name": "ML",
+          "code": "ml",
+          "units": [
+            {
+              "unit": "Unit 1",
+              "pdf": "pdfs/sem6/ML/unit1.pdf"
+            },
+            {
+              "unit": "Unit 2",
+              "pdf": "pdfs/sem6/ML/unit2.pdf"
+            },
+            {
+              "unit": "Unit 3",
+              "pdf": "pdfs/sem6/ML/unit3.pdf"
+            },
+            {
+              "unit": "Unit 4",
+              "pdf": "pdfs/sem6/ML/unit4.pdf"
+            },
+            {
+              "unit": "Unit 5",
+              "pdf": "pdfs/sem6/ML/unit5.pdf"
+            },
+            {
+              "unit": "Unit 6",
+              "pdf": "pdfs/sem6/ML/unit6.pdf"
+            }
+          ]
+        },
+        {
           "name": "BDA",
           "code": "bda",
           "units": [
