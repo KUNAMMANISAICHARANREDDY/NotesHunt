@@ -555,6 +555,58 @@
           ]
         },
         {
+          "name": "HPC",
+          "code": "HPC",
+          "units": [
+            {
+              "unit": "Unit 1",
+              "pdf": "pdfs/sem6/HPC/unit1.pdf"
+            },
+            {
+              "unit": "Unit 2",
+              "pdf": "pdfs/sem6/HPC/unit2.pdf"
+            },
+            {
+              "unit": "Unit 3",
+              "pdf": "pdfs/sem6/HPC/unit3.pdf"
+            },
+            {
+              "unit": "Unit 4",
+              "pdf": "pdfs/sem6/HPC/unit4.pdf"
+            },
+            {
+              "unit": "Unit 5",
+              "pdf": "pdfs/sem6/HPC/unit5.pdf"
+            },
+            {
+              "unit": "Unit 6",
+              "pdf": "pdfs/sem6/HPC/unit6.pdf"
+            }
+          ]
+        },
+         {
+          "name": "Mern",
+          "code": "mern",
+          "units": [
+            {
+              "unit": "Unit 1",
+              "pdf": "pdfs/sem6/MERN/unit1.pdf"
+            },
+            {
+              "unit": "Unit 2",
+              "pdf": "pdfs/sem6/MERN/unit2.pdf"
+            },
+            {
+              "unit": "Unit 3",
+              "pdf": "pdfs/sem6/MERN/unit3.pdf"
+            },
+            {
+              "unit": "Question Bank",
+              "pdf": "pdfs/sem6/MERN/QuestionBank.pdf"
+            }
+          ]
+        },
+        {
           "name": "CS",
           "code": "cs",
           "units": [
