@@ -102,15 +102,6 @@ header {
     position: relative;
 }
 
-.sub-splash {
-    font-size: 6rem;
-    background: -webkit-linear-gradient(#f1c40f, #e67e22);
-    -webkit-background-clip: text;
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
-    font-weight: 800;
-}
-
 @keyframes cinematicZoom {
     0% {
         transform: scale(0.6);
