@@ -521,6 +521,22 @@
             {
               "unit": "Unit 4",
               "pdf": "pdfs/sem6/CC/unit4.pdf"
+            },
+            {
+              "unit": "Unit 5",
+              "pdf": "pdfs/sem6/CC/unit5.pdf"
+            },
+            {
+              "unit": "Unit 6",
+              "pdf": "pdfs/sem6/CC/unit6.pdf"
+            },
+            {
+              "unit": "Questionpaper",
+              "pdf": "pdfs/sem6/CC/Questionpaper.pdf"
+            },
+            {
+              "unit": "Question Bank",
+              "pdf": "pdfs/sem6/CC/Question_Bank.pdf"
             }
           ]
         },
