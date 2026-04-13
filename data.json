@@ -440,7 +440,7 @@
               "unit": "Unit 8",
               "pdf": "pdfs/sem6/CD/unit8.pdf"
             },
-             {
+            {
               "unit": "MIDNotes",
               "pdf": "pdfs/sem6/CD/CDNOTES.pdf"
             }
@@ -608,7 +608,7 @@
             }
           ]
         },
-         {
+        {
           "name": "Mern",
           "code": "mern",
           "units": [
@@ -645,6 +645,14 @@
             {
               "unit": "Unit 3",
               "pdf": "pdfs/sem6/CS/unit3.pdf"
+            },
+            {
+              "unit": "Unit 4",
+              "pdf": "pdfs/sem6/CS/unit4.pdf"
+            },
+            {
+              "unit": "Unit 5",
+              "pdf": "pdfs/sem6/CS/unit5.pdf"
             }
           ]
         },
