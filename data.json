@@ -545,6 +545,14 @@
           "code": "mad",
           "units": [
             {
+              "unit": "PYQ",
+              "pdf": "pdfs/sem6/MAD/Pyq1.pdf"
+            },
+            {
+              "unit": "Syllabus",
+              "pdf": "pdfs/sem6/MAD/Syllabus.pdf"
+            },
+            {
               "unit": "Unit 1",
               "pdf": "pdfs/sem6/MAD/unit1.pdf"
             },
