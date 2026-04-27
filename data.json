@@ -481,6 +481,10 @@
           "code": "bda",
           "units": [
             {
+              "unit": "All Pyqs",
+              "pdf": "pdfs/sem6/BDA/AllPyqs.pdf"
+            },
+            {
               "unit": "Unit 1",
               "pdf": "pdfs/sem6/BDA/unit1.pdf"
             },
