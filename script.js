@@ -1,9 +1,9 @@
-fetch('data.json')
+fetch('/api/data')
     .then(response => response.json())
     .then(data => renderContent(data))
     .catch(error => {
-        console.error('Error loading data:', error);
-        alert('Error loading content. If you are opening this file directly (file://), please run a local server (like "Live Server" in VS Code) to allow fetching data.json.');
+        console.error('Error loading data from API:', error);
+        alert('Error loading content from API. Make sure the backend server is running (node server.js) or that /api/data is reachable.');
     });
 
 function renderContent(data) {
