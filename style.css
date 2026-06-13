@@ -275,90 +275,136 @@ main {
 .viewer {
     position: fixed;
     inset: 0;
-    background: #000;
+    background: #121212;
     display: none;
+    flex-direction: column;
     z-index: 1000;
+    overflow: hidden;
 }
 
-/* Hide original header elements except button if needed, 
-   but we'll repurpose the button and hide the header container's original style */
 .viewer header {
-    position: absolute;
-    top: 20px;
-    right: 20px;
-    padding: 0;
-    background: transparent;
-    border: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 64px;
+    padding: 0 24px;
+    background: rgba(18, 18, 18, 0.85);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+    position: relative;
+    top: 0;
+    right: 0;
     z-index: 1010;
-    pointer-events: none;
-    /* Let clicks pass through transparent header area */
-    width: auto;
+    pointer-events: auto;
+    box-sizing: border-box;
 }
 
 .viewer header span {
-    display: none;
-    /* Hide "PDF Viewer" text */
+    display: block;
+    color: #fff;
+    font-weight: 600;
+    font-size: 1.1rem;
+    letter-spacing: -0.3px;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    max-width: 50%;
+}
+
+.viewer-controls {
+    display: flex;
+    align-items: center;
+    gap: 10px;
 }
 
 .viewer button {
     pointer-events: auto;
-    padding: 10px 24px;
-    border-radius: 4px;
-    background: #fff;
-    border: 2px solid #000;
-    color: #000;
-    font-weight: 700;
-    font-size: 1rem;
+    padding: 8px 16px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.08);
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    color: #fff;
+    font-weight: 600;
+    font-size: 0.9rem;
     cursor: pointer;
-    transition: 0.2s ease;
-    width: auto;
-    height: auto;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    display: flex;
+    align-items: center;
+    gap: 6px;
 }
 
 .viewer button:hover {
-    transform: translateY(-2px);
-    background: #000;
-    color: #fff;
-    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
-}
-
-/* Ensure text is visible (override previous transparency) */
-.viewer button {
+    background: #fff;
     color: #000;
+    border-color: #fff;
+    transform: translateY(-1px);
+    box-shadow: 0 6px 16px rgba(255, 255, 255, 0.2);
 }
 
-/* Remove the "X" pseudo element */
-.viewer button::before {
-    content: none;
+.viewer button:active {
+    transform: translateY(0);
 }
 
-.viewer button:hover::before {
-    content: none;
+.viewer #closeBtn {
+    background: rgba(231, 76, 60, 0.2);
+    border-color: rgba(231, 76, 60, 0.3);
+    color: #e74c3c;
 }
 
+.viewer #closeBtn:hover {
+    background: #e74c3c;
+    color: #fff;
+    border-color: #e74c3c;
+    box-shadow: 0 6px 16px rgba(231, 76, 60, 0.4);
+}
 
 #pdfContainer {
     flex: 1;
     width: 100%;
     overflow-y: auto;
-    background: #525659;
-    /* Standard PDF viewer grey */
+    background: #1a1a1a;
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 30px 0;
-    gap: 20px;
+    padding: 40px 0;
+    gap: 30px;
+    scroll-behavior: smooth;
+}
+
+#pdfContainer::-webkit-scrollbar {
+    width: 8px;
+}
+
+#pdfContainer::-webkit-scrollbar-track {
+    background: #1a1a1a;
+}
+
+#pdfContainer::-webkit-scrollbar-thumb {
+    background: #333;
+    border-radius: 4px;
+}
+
+#pdfContainer::-webkit-scrollbar-thumb:hover {
+    background: #444;
 }
 
 #pdfContainer canvas {
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+    border-radius: 8px;
     max-width: 95%;
     display: block;
     user-select: none;
-    /* Prevent text selection */
     -webkit-user-drag: none;
-    /* Prevent drag */
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    transition: transform 0.2s ease;
+}
+
+#pdfContainer canvas:hover {
+    transform: scale(1.005);
 }
 
 /* ================= ABOUT ================= */
