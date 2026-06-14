@@ -1,448 +1,278 @@
 {
   "semesters": [
     {
-      "id": "sem2",
-      "name": "Semester 2",
+      "id": "sem3",
+      "name": "Semester 3",
       "subjects": [
         {
-          "name": "English",
-          "code": "English",
+          "name": "DBMS",
+          "code": "dbms",
           "units": [
             {
               "unit": "Unit 1",
-              "pdf": "pdfs/sem2/English/unit1.pdf"
+              "pdf": "pdfs/sem3/DBMS/unit1.pdf"
             },
             {
               "unit": "Unit 2",
-              "pdf": "pdfs/sem2/English/unit2.pdf"
+              "pdf": "pdfs/sem3/DBMS/unit2.pdf"
             },
             {
               "unit": "Unit 3",
-              "pdf": "pdfs/sem2/English/unit3.pdf"
+              "pdf": "pdfs/sem3/DBMS/unit3.pdf"
             },
             {
               "unit": "Unit 4",
-              "pdf": "pdfs/sem2/English/uploadingSoon.pdf"
+              "pdf": "pdfs/sem3/DBMS/unit4.pdf"
             },
             {
               "unit": "Unit 5",
-              "pdf": "pdfs/sem2/English/unit5.pdf"
+              "pdf": "pdfs/sem3/DBMS/unit5.pdf"
             },
             {
               "unit": "Unit 6",
-              "pdf": "pdfs/sem2/English/unit6.pdf"
+              "pdf": "pdfs/sem3/DBMS/unit6.pdf"
             },
             {
               "unit": "Unit 7",
-              "pdf": "pdfs/sem2/English/unit7.pdf"
+              "pdf": "pdfs/sem3/DBMS/unit7.pdf"
             },
             {
               "unit": "Unit 8",
-              "pdf": "pdfs/sem2/English/unit8.pdf"
+              "pdf": "pdfs/sem3/DBMS/unit8.pdf"
             },
             {
               "unit": "Unit 9",
-              "pdf": "pdfs/sem2/English/unit9.pdf"
-            }
-          ]
-        },
-        {
-          "name": "ICT WorkShop",
-          "code": "ictw",
-          "units": [
-            {
-              "unit": "Lab Manual",
-              "pdf": "pdfs/sem2/ICTWorkshop/Labmannual.pdf"
+              "pdf": "pdfs/sem3/DBMS/unit9.pdf"
             }
           ]
         },
         {
           "name": "Mathematics",
-          "code": "math",
+          "code": "maths",
           "units": [
             {
               "unit": "Unit 1",
-              "pdf": "pdfs/sem2/Maths/unit1.pdf"
+              "pdf": "pdfs/sem3/Maths/unit1.pdf"
             },
             {
               "unit": "Unit 2",
-              "pdf": "pdfs/sem2/Maths/unit2.pdf"
+              "pdf": "pdfs/sem3/Maths/unit2.pdf"
             },
             {
               "unit": "Unit 3",
-              "pdf": "pdfs/sem2/Maths/unit3.pdf"
+              "pdf": "pdfs/sem3/Maths/unit3.pdf"
             },
             {
               "unit": "Unit 4",
-              "pdf": "pdfs/sem2/Maths/unit4.pdf"
-            }
-          ]
-        },
-        {
-          "name": "Engineering Physics",
-          "code": "ephy",
-          "units": [
-            {
-              "unit": "Unit 1",
-              "pdf": "pdfs/sem2/PHY/unit1.pdf"
-            },
-            {
-              "unit": "Unit 2",
-              "pdf": "pdfs/sem2/PHY/unit2.pdf"
-            },
-            {
-              "unit": "Unit 3",
-              "pdf": "pdfs/sem2/PHY/unit3.pdf"
-            },
-            {
-              "unit": "Unit 4",
-              "pdf": "pdfs/sem2/PHY/unit4.pdf"
-            },
-            {
-              "unit": "PYQ",
-              "pdf": "pdfs/sem2/PHY/PYQ1.pdf"
-            }
-          ]
-        },
-        {
-          "name": "OOPS",
-          "code": "oops",
-          "units": [
-            {
-              "unit": "Unit 1",
-              "pdf": "pdfs/sem2/OOPS/unit1.pdf"
-            },
-            {
-              "unit": "Unit 2",
-              "pdf": "pdfs/sem2/OOPS/unit2.pdf"
-            },
-            {
-              "unit": "Unit 3",
-              "pdf": "pdfs/sem2/OOPS/unit3.pdf"
-            },
-            {
-              "unit": "Unit 4",
-              "pdf": "pdfs/sem2/OOPS/unit4.pdf"
+              "pdf": "pdfs/sem3/Maths/unit4.pdf"
             },
             {
               "unit": "Unit 5",
-              "pdf": "pdfs/sem2/OOPS/unit5.pdf"
-            }
-          ]
-        },
-        {
-          "name": "EEE",
-          "code": "eee",
-          "units": [
-            {
-              "unit": "Unit 1",
-              "pdf": "pdfs/sem2/EEE/unit1.pdf"
-            },
-            {
-              "unit": "Unit 2",
-              "pdf": "pdfs/sem2/EEE/unit2.pdf"
-            },
-            {
-              "unit": "Unit 3",
-              "pdf": "pdfs/sem2/EEE/unit3.pdf"
-            },
-            {
-              "unit": "Unit 4",
-              "pdf": "pdfs/sem2/EEE/unit4.pdf"
-            },
-            {
-              "unit": "Unit 5",
-              "pdf": "pdfs/sem2/EEE/unit5.pdf"
-            },
-            {
-              "unit": "PYQ",
-              "pdf": "pdfs/sem2/EEE/EEEPyq1.pdf"
-            }
-          ]
-        },
-        {
-          "name": "Privacy and Security ",
-          "code": "Privacy and Security ",
-          "units": [
-            {
-              "unit": "Unit 1",
-              "pdf": "pdfs/sem2/privacyAndSecurity/unit1.pdf"
-            },
-            {
-              "unit": "Unit 2",
-              "pdf": "pdfs/sem2/privacyAndSecurity/unit2.pdf"
-            },
-            {
-              "unit": "Unit 3",
-              "pdf": "pdfs/sem2/privacyAndSecurity/unit3.pdf"
-            },
-            {
-              "unit": "Unit 4",
-              "pdf": "pdfs/sem2/privacyAndSecurity/unit4.pdf"
-            },
-            {
-              "unit": "Unit 5",
-              "pdf": "pdfs/sem2/privacyAndSecurity/unit5.pdf"
-            }
-          ]
-        },
-        {
-          "name": "Programming in Python",
-          "code": "Programming in Python",
-          "units": [
-            {
-              "unit": "Unit 1",
-              "pdf": "pdfs/sem2/Programming/unit1.pdf"
-            },
-            {
-              "unit": "Unit 2",
-              "pdf": "pdfs/sem2/Programming/unit2.pdf"
-            },
-            {
-              "unit": "Unit 3",
-              "pdf": "pdfs/sem2/Programming/unit3.pdf"
-            },
-            {
-              "unit": "Unit 4",
-              "pdf": "pdfs/sem2/Programming/unit4.pdf"
-            },
-            {
-              "unit": "Unit 5",
-              "pdf": "pdfs/sem2/Programming/unit5.pdf"
-            },
-            {
-              "unit": "Unit 6",
-              "pdf": "pdfs/sem2/Programming/unit6.pdf"
+              "pdf": "pdfs/sem3/Maths/unit5.pdf"
             }
           ]
         }
       ]
     },
     {
-      "id": "sem4",
-      "name": "Semester 4",
+      "id": "sem5",
+      "name": "Semester 5",
       "subjects": [
         {
-          "name": "Python",
-          "code": "ppfd",
+          "name": "AWS",
+          "code": "aws",
           "units": [
             {
               "unit": "Unit 1",
-              "pdf": "pdfs/sem4/PPFD/unit1.pdf"
+              "pdf": "pdfs/sem5/AWS/unit1.pdf"
             },
             {
               "unit": "Unit 2",
-              "pdf": "pdfs/sem4/PPFD/unit2.pdf"
+              "pdf": "pdfs/sem5/AWS/unit2.pdf"
             },
             {
               "unit": "Unit 3",
-              "pdf": "pdfs/sem4/PPFD/unit3.pdf"
+              "pdf": "pdfs/sem5/AWS/unit3.pdf"
             },
             {
               "unit": "Unit 4",
-              "pdf": "pdfs/sem4/PPFD/unit4.pdf"
+              "pdf": "pdfs/sem5/AWS/unit4.pdf"
             },
             {
               "unit": "Unit 5",
-              "pdf": "pdfs/sem4/PPFD/unit5.pdf"
+              "pdf": "pdfs/sem5/AWS/unit5.pdf"
             },
             {
               "unit": "Unit 6",
-              "pdf": "pdfs/sem4/PPFD/unit6.pdf"
+              "pdf": "pdfs/sem5/AWS/unit6.pdf"
             }
           ]
         },
         {
-          "name": "PSNM",
-          "code": "psnm",
+          "name": "DADV",
+          "code": "dadv",
           "units": [
             {
               "unit": "Unit 1",
-              "pdf": "pdfs/sem4/PSNM/unit1.pdf"
+              "pdf": "pdfs/sem5/DADV/unit1.pdf"
             },
             {
               "unit": "Unit 2",
-              "pdf": "pdfs/sem4/PSNM/unit2.pdf"
+              "pdf": "pdfs/sem5/DADV/unit2.pdf"
             },
             {
               "unit": "Unit 3",
-              "pdf": "pdfs/sem4/PSNM/unit3.pdf"
+              "pdf": "pdfs/sem5/DADV/unit3.pdf"
             },
             {
               "unit": "Unit 4",
-              "pdf": "pdfs/sem4/PSNM/unit4.pdf"
+              "pdf": "pdfs/sem5/DADV/unit4.pdf"
             },
             {
               "unit": "Unit 5",
-              "pdf": "pdfs/sem4/PSNM/unit5.pdf"
-            },
-            {
-              "unit": "Unit 6",
-              "pdf": "pdfs/sem4/PSNM/unit6.pdf"
+              "pdf": "pdfs/sem5/DADV/unit5.pdf"
             }
           ]
         },
         {
-          "name": "Operating System",
-          "code": "OS",
-          "units": [
-            {
-              "unit": "Unit 1",
-              "pdf": "pdfs/sem4/PSNM/unit1.pdf"
-            },
-            {
-              "unit": "Unit 2",
-              "pdf": "pdfs/sem4/PSNM/unit2.pdf"
-            },
-            {
-              "unit": "Unit 3",
-              "pdf": "pdfs/sem4/PSNM/unit3.pdf"
-            },
-            {
-              "unit": "Unit 4",
-              "pdf": "pdfs/sem4/PSNM/unit4.pdf"
-            },
-            {
-              "unit": "Unit 5",
-              "pdf": "pdfs/sem4/PSNM/unit5.pdf"
-            },
-            {
-              "unit": "Unit 6",
-              "pdf": "pdfs/sem4/PSNM/unit6.pdf"
-            }
-          ]
-        },
-        {
-          "name": "COMA",
-          "code": "coma",
-          "units": [
-            {
-              "unit": "Unit 1",
-              "pdf": "pdfs/sem4/COMA/unit1.pdf"
-            },
-            {
-              "unit": "Unit 2",
-              "pdf": "pdfs/sem4/COMA/unit2.pdf"
-            },
-            {
-              "unit": "Unit 3",
-              "pdf": "pdfs/sem4/COMA/unit3.pdf"
-            },
-            {
-              "unit": "Unit 4",
-              "pdf": "pdfs/sem4/COMA/unit4.pdf"
-            },
-            {
-              "unit": "Unit 5",
-              "pdf": "pdfs/sem4/COMA/unit5.pdf"
-            },
-            {
-              "unit": "Unit 6",
-              "pdf": "pdfs/sem4/COMA/unit6.pdf"
-            }
-          ]
-        },
-        {
-          "name": "Computer Network ",
-          "code": "cn",
-          "units": [
-            {
-              "unit": "Unit 1",
-              "pdf": "pdfs/sem4/CN/unit1.pdf"
-            },
-            {
-              "unit": "Unit 2",
-              "pdf": "pdfs/sem4/CN/unit2.pdf"
-            },
-            {
-              "unit": "Unit 3",
-              "pdf": "pdfs/sem4/CN/unit3.pdf"
-            },
-            {
-              "unit": "Unit 4",
-              "pdf": "pdfs/sem4/CN/unit4.pdf"
-            },
-            {
-              "unit": "Unit 5",
-              "pdf": "pdfs/sem4/CN/unit5.pdf"
-            }
-          ]
-        },
-        {
-          "name": "Software Engineering ",
+          "name": "Software Engineering",
           "code": "se",
           "units": [
             {
               "unit": "Unit 1",
-              "pdf": "pdfs/sem4/SE/unit1.pdf"
+              "pdf": "pdfs/sem5/SE/unit1.pdf"
             },
             {
               "unit": "Unit 2",
-              "pdf": "pdfs/sem4/SE/unit2.pdf"
+              "pdf": "pdfs/sem5/SE/unit2.pdf"
             },
             {
               "unit": "Unit 3",
-              "pdf": "pdfs/sem4/SE/unit3.pdf"
+              "pdf": "pdfs/sem5/SE/unit3.pdf"
             },
             {
               "unit": "Unit 4",
-              "pdf": "pdfs/sem4/SE/unit4.pdf"
+              "pdf": "pdfs/sem5/SE/unit4.pdf"
             },
             {
               "unit": "Unit 5",
-              "pdf": "pdfs/sem4/SE/unit5.pdf"
+              "pdf": "pdfs/sem5/SE/unit5.pdf"
             },
             {
               "unit": "Unit 6",
-              "pdf": "pdfs/sem4/SE/unit6.pdf"
+              "pdf": "pdfs/sem5/SE/unit6.pdf"
             }
           ]
         }
       ]
     },
     {
-      "id": "sem6",
-      "name": "Semester 6",
+      "id": "sem7",
+      "name": "Semester 7",
       "subjects": [
         {
-          "name": "Complier Design",
-          "code": "CD",
+          "name": "Deep Learning",
+          "code": "dl",
           "units": [
             {
               "unit": "Unit 1",
-              "pdf": "pdfs/sem6/CD/unit1.pdf"
+              "pdf": "pdfs/sem7/DL/unit1.pdf"
             },
             {
               "unit": "Unit 2",
-              "pdf": "pdfs/sem6/CD/unit2.pdf"
+              "pdf": "pdfs/sem7/DL/unit2.pdf"
             },
             {
               "unit": "Unit 3",
-              "pdf": "pdfs/sem6/CD/unit3.pdf"
+              "pdf": "pdfs/sem7/DL/unit3.pdf"
             },
             {
               "unit": "Unit 4",
-              "pdf": "pdfs/sem6/CD/unit4.pdf"
+              "pdf": "pdfs/sem7/DL/unit4.pdf"
             },
             {
               "unit": "Unit 5",
-              "pdf": "pdfs/sem6/CD/unit5.pdf"
+              "pdf": "pdfs/sem7/DL/unit5.pdf"
             },
             {
               "unit": "Unit 6",
-              "pdf": "pdfs/sem6/CD/unit6.pdf"
+              "pdf": "pdfs/sem7/DL/unit6.pdf"
+            }
+          ]
+        },
+        {
+          "name": "HPC",
+          "code": "hpc",
+          "units": [
+            {
+              "unit": "Unit 1",
+              "pdf": "pdfs/sem7/HPC/unit1.pdf"
+            },
+            {
+              "unit": "Unit 2",
+              "pdf": "pdfs/sem7/HPC/unit2.pdf"
+            },
+            {
+              "unit": "Unit 3",
+              "pdf": "pdfs/sem7/HPC/unit3.pdf"
+            },
+            {
+              "unit": "Unit 4",
+              "pdf": "pdfs/sem7/HPC/unit4.pdf"
+            },
+            {
+              "unit": "Unit 5",
+              "pdf": "pdfs/sem7/HPC/unit5.pdf"
+            },
+            {
+              "unit": "Unit 6",
+              "pdf": "pdfs/sem7/HPC/unit6.pdf"
+            }
+          ]
+        },
+        {
+          "name": "MAD",
+          "code": "mad",
+          "units": [
+            {
+              "unit": "Unit 1",
+              "pdf": "pdfs/sem7/MAD/unit1.pdf"
+            },
+            {
+              "unit": "Unit 2",
+              "pdf": "pdfs/sem7/MAD/unit2.pdf"
+            },
+            {
+              "unit": "Unit 3",
+              "pdf": "pdfs/sem7/MAD/unit3.pdf"
+            },
+            {
+              "unit": "Unit 4",
+              "pdf": "pdfs/sem7/MAD/unit4.pdf"
+            },
+            {
+              "unit": "Unit 5",
+              "pdf": "pdfs/sem7/MAD/unit5.pdf"
+            },
+            {
+              "unit": "Unit 6",
+              "pdf": "pdfs/sem7/MAD/unit6.pdf"
             },
             {
               "unit": "Unit 7",
-              "pdf": "pdfs/sem6/CD/unit7.pdf"
+              "pdf": "pdfs/sem7/MAD/unit7.pdf"
             },
             {
-              "unit": "Unit 8",
-              "pdf": "pdfs/sem6/CD/unit8.pdf"
+              "unit": "Syllabus",
+              "pdf": "pdfs/sem7/MAD/Syllabus.pdf"
             },
             {
-              "unit": "MIDNotes",
-              "pdf": "pdfs/sem6/CD/CDNOTES.pdf"
+              "unit": "Question Bank",
+              "pdf": "pdfs/sem7/MAD/QuestionBank.pdf"
+            },
+            {
+              "unit": "PYQ",
+              "pdf": "pdfs/sem7/MAD/Pyq1.pdf"
             }
           ]
         },
@@ -452,245 +282,27 @@
           "units": [
             {
               "unit": "Unit 1",
-              "pdf": "pdfs/sem6/ML/unit1.pdf"
+              "pdf": "pdfs/sem7/ML/unit1.pdf"
             },
             {
               "unit": "Unit 2",
-              "pdf": "pdfs/sem6/ML/unit2.pdf"
+              "pdf": "pdfs/sem7/ML/unit2.pdf"
             },
             {
               "unit": "Unit 3",
-              "pdf": "pdfs/sem6/ML/unit3.pdf"
+              "pdf": "pdfs/sem7/ML/unit3.pdf"
             },
             {
               "unit": "Unit 4",
-              "pdf": "pdfs/sem6/ML/unit4.pdf"
+              "pdf": "pdfs/sem7/ML/unit4.pdf"
             },
             {
               "unit": "Unit 5",
-              "pdf": "pdfs/sem6/ML/unit5.pdf"
+              "pdf": "pdfs/sem7/ML/unit5.pdf"
             },
             {
               "unit": "Unit 6",
-              "pdf": "pdfs/sem6/ML/unit6.pdf"
-            }
-          ]
-        },
-        {
-          "name": "BDA",
-          "code": "bda",
-          "units": [
-            {
-              "unit": "All Pyqs",
-              "pdf": "pdfs/sem6/BDA/AllPyqs.pdf"
-            },
-            {
-              "unit": "Unit 1",
-              "pdf": "pdfs/sem6/BDA/unit1.pdf"
-            },
-            {
-              "unit": "Unit 2",
-              "pdf": "pdfs/sem6/BDA/unit2.pdf"
-            },
-            {
-              "unit": "Unit 3",
-              "pdf": "pdfs/sem6/BDA/unit3.pdf"
-            },
-            {
-              "unit": "Unit 4",
-              "pdf": "pdfs/sem6/BDA/unit4.pdf"
-            },
-            {
-              "unit": "Assignment 1",
-              "pdf": "pdfs/sem6/BDA/Assignment1.pdf"
-            }
-          ]
-        },
-        {
-          "name": "CC",
-          "code": "cc",
-          "units": [
-            {
-              "unit": "Unit 1",
-              "pdf": "pdfs/sem6/CC/unit1.pdf"
-            },
-            {
-              "unit": "Unit 2",
-              "pdf": "pdfs/sem6/CC/unit2.pdf"
-            },
-            {
-              "unit": "Unit 3",
-              "pdf": "pdfs/sem6/CC/unit3.pdf"
-            },
-            {
-              "unit": "Unit 4",
-              "pdf": "pdfs/sem6/CC/unit4.pdf"
-            },
-            {
-              "unit": "Unit 5",
-              "pdf": "pdfs/sem6/CC/unit5.pdf"
-            },
-            {
-              "unit": "Unit 6",
-              "pdf": "pdfs/sem6/CC/unit6.pdf"
-            },
-            {
-              "unit": "Questionpaper",
-              "pdf": "pdfs/sem6/CC/Questionpaper.pdf"
-            },
-            {
-              "unit": "Question Bank",
-              "pdf": "pdfs/sem6/CC/Question_Bank.pdf"
-            }
-          ]
-        },
-        {
-          "name": "MAD",
-          "code": "mad",
-          "units": [
-            {
-              "unit": "PYQ",
-              "pdf": "pdfs/sem6/MAD/Pyq1.pdf"
-            },
-            {
-              "unit": "Syllabus",
-              "pdf": "pdfs/sem6/MAD/Syllabus.pdf"
-            },
-            {
-              "unit": "Unit 1",
-              "pdf": "pdfs/sem6/MAD/unit1.pdf"
-            },
-            {
-              "unit": "Unit 2",
-              "pdf": "pdfs/sem6/MAD/unit2.pdf"
-            },
-            {
-              "unit": "Unit 3",
-              "pdf": "pdfs/sem6/MAD/unit3.pdf"
-            },
-            {
-              "unit": "Unit 4",
-              "pdf": "pdfs/sem6/MAD/unit4.pdf"
-            },
-            {
-              "unit": "Unit 5",
-              "pdf": "pdfs/sem6/MAD/unit5.pdf"
-            },
-            {
-              "unit": "Unit 6",
-              "pdf": "pdfs/sem6/MAD/unit6.pdf"
-            },
-            {
-              "unit": "Unit 7",
-              "pdf": "pdfs/sem6/MAD/unit7.pdf"
-            },
-            {
-              "unit": "Question Bank",
-              "pdf": "pdfs/sem6/MAD/QuestionBank.pdf"
-            }
-          ]
-        },
-        {
-          "name": "HPC",
-          "code": "HPC",
-          "units": [
-            {
-              "unit": "Unit 1",
-              "pdf": "pdfs/sem6/HPC/unit1.pdf"
-            },
-            {
-              "unit": "Unit 2",
-              "pdf": "pdfs/sem6/HPC/unit2.pdf"
-            },
-            {
-              "unit": "Unit 3",
-              "pdf": "pdfs/sem6/HPC/unit3.pdf"
-            },
-            {
-              "unit": "Unit 4",
-              "pdf": "pdfs/sem6/HPC/unit4.pdf"
-            },
-            {
-              "unit": "Unit 5",
-              "pdf": "pdfs/sem6/HPC/unit5.pdf"
-            },
-            {
-              "unit": "Unit 6",
-              "pdf": "pdfs/sem6/HPC/unit6.pdf"
-            }
-          ]
-        },
-        {
-          "name": "Mern",
-          "code": "mern",
-          "units": [
-            {
-              "unit": "Unit 1",
-              "pdf": "pdfs/sem6/MERN/unit1.pdf"
-            },
-            {
-              "unit": "Unit 2",
-              "pdf": "pdfs/sem6/MERN/unit2.pdf"
-            },
-            {
-              "unit": "Unit 3",
-              "pdf": "pdfs/sem6/MERN/unit3.pdf"
-            },
-            {
-              "unit": "Question Bank",
-              "pdf": "pdfs/sem6/MERN/QuestionBank.pdf"
-            }
-          ]
-        },
-        {
-          "name": "CS",
-          "code": "cs",
-          "units": [
-            {
-              "unit": "Unit 1",
-              "pdf": "pdfs/sem6/CS/UNIT1.pdf"
-            },
-            {
-              "unit": "Unit 2",
-              "pdf": "pdfs/sem6/CS/unit2.pdf"
-            },
-            {
-              "unit": "Unit 3",
-              "pdf": "pdfs/sem6/CS/unit3.pdf"
-            },
-            {
-              "unit": "Unit 4",
-              "pdf": "pdfs/sem6/CS/unit4.pdf"
-            },
-            {
-              "unit": "Unit 5",
-              "pdf": "pdfs/sem6/CS/unit5.pdf"
-            }
-          ]
-        },
-        {
-          "name": "Lab Manuals",
-          "code": "lab",
-          "units": [
-            {
-              "unit": "CS Manual",
-              "pdf": "pdfs/sem6/Lab Manual/CSMANUAL.pdf"
-            },
-            {
-              "unit": "BDA Manual",
-              "pdf": "pdfs/sem6/Lab Manual/BDAMANUAL.pdf"
-            },
-            {
-              "unit": "CC Manual",
-              "pdf": "pdfs/sem6/Lab Manual/CCManual.pdf"
-            },
-            {
-              "unit": "CD Manual",
-              "pdf": "pdfs/sem6/Lab Manual/CDManual.pdf"
-            },
-            {
-              "unit": "MAD Manual",
-              "pdf": "pdfs/sem6/Lab Manual/MADLABMUAL.pdf"
+              "pdf": "pdfs/sem7/ML/unit6.pdf"
             }
           ]
         }
