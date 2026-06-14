@@ -346,6 +346,14 @@ async function openPDF(link, semId, subjectCode, unitName, pushHistory = true) {
 
         loadTask.promise.then(pdf => {
             currentPdf = pdf;
+            const pageCountSpan = document.getElementById('pageCountDisplay');
+            if (pageCountSpan) {
+                pageCountSpan.textContent = `${pdf.numPages} ${pdf.numPages === 1 ? 'Page' : 'Pages'}`;
+            }
+            const zoomDisplay = document.getElementById('zoomDisplay');
+            if (zoomDisplay) {
+                zoomDisplay.textContent = Math.round(currentScale * 100) + '%';
+            }
             renderPDFPages();
         }).catch(reason => {
             console.warn('Initial load failed, retrying with disableFontFace=true:', reason);
@@ -354,6 +362,14 @@ async function openPDF(link, semId, subjectCode, unitName, pushHistory = true) {
                 currentLoadingTask = retryTask;
                 retryTask.promise.then(pdf => {
                     currentPdf = pdf;
+                    const pageCountSpan = document.getElementById('pageCountDisplay');
+                    if (pageCountSpan) {
+                        pageCountSpan.textContent = `${pdf.numPages} ${pdf.numPages === 1 ? 'Page' : 'Pages'}`;
+                    }
+                    const zoomDisplay = document.getElementById('zoomDisplay');
+                    if (zoomDisplay) {
+                        zoomDisplay.textContent = Math.round(currentScale * 100) + '%';
+                    }
                     renderPDFPages();
                 }).catch(reason2 => {
                     console.error('Retry failed, opening in new tab fallback:', reason2);
@@ -379,7 +395,19 @@ async function openPDF(link, semId, subjectCode, unitName, pushHistory = true) {
 
 function closePDF() {
     if (viewer) viewer.style.display = 'none';
-    if (container) container.innerHTML = '';
+    if (container) {
+        container.innerHTML = '';
+        container.classList.remove('night-mode');
+    }
+    const nightToggle = document.getElementById('nightModeToggle');
+    if (nightToggle) {
+        const moon = nightToggle.querySelector('.moon-icon');
+        const sun = nightToggle.querySelector('.sun-icon');
+        if (moon && sun) {
+            moon.style.display = 'block';
+            sun.style.display = 'none';
+        }
+    }
     if (currentLoadingTask && typeof currentLoadingTask.destroy === 'function') {
         try { currentLoadingTask.destroy(); } catch(e){}
     }
@@ -403,6 +431,10 @@ function zoomIn() {
         return;
     }
     currentScale += 0.25;
+    const zoomDisplay = document.getElementById('zoomDisplay');
+    if (zoomDisplay) {
+        zoomDisplay.textContent = Math.round(currentScale * 100) + '%';
+    }
     renderPDFPages();
 }
 
@@ -413,6 +445,20 @@ function zoomOut() {
         return;
     }
     currentScale -= 0.25;
+    const zoomDisplay = document.getElementById('zoomDisplay');
+    if (zoomDisplay) {
+        zoomDisplay.textContent = Math.round(currentScale * 100) + '%';
+    }
+    renderPDFPages();
+}
+
+function resetZoom() {
+    if (!currentPdf || isRendering) return;
+    currentScale = getDefaultScale();
+    const zoomDisplay = document.getElementById('zoomDisplay');
+    if (zoomDisplay) {
+        zoomDisplay.textContent = Math.round(currentScale * 100) + '%';
+    }
     renderPDFPages();
 }
 
@@ -617,3 +663,26 @@ function hideBatmanLoader() {
 
 window.addEventListener('offline', showBatmanLoader);
 window.addEventListener('online', hideBatmanLoader);
+
+/* ================= NIGHT MODE LOGIC ================= */
+document.addEventListener('DOMContentLoaded', () => {
+    const nightModeBtn = document.getElementById('nightModeToggle');
+    if (nightModeBtn) {
+        nightModeBtn.addEventListener('click', () => {
+            if (!container) return;
+            container.classList.toggle('night-mode');
+            const isNight = container.classList.contains('night-mode');
+            
+            const moonIcon = nightModeBtn.querySelector('.moon-icon');
+            const sunIcon = nightModeBtn.querySelector('.sun-icon');
+            
+            if (isNight) {
+                if (moonIcon) moonIcon.style.display = 'none';
+                if (sunIcon) sunIcon.style.display = 'block';
+            } else {
+                if (moonIcon) moonIcon.style.display = 'block';
+                if (sunIcon) sunIcon.style.display = 'none';
+            }
+        });
+    }
+});
